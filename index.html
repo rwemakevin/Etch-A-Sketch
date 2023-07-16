@@ -7,5 +7,26 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="nav">
+      <h1 class="center">ETCH - A - SKETCH</h1>
+      <p class="center">- Web Version -</p>
+    </div>
+
+    <section id="main">
+      <div class="container" id="flex"></div>
+      <div class="submit">
+        <button onclick="reload()">Reset</button>
+        <input
+          id="input"
+          type="number"
+          min="1"
+          max="99"
+          placeholder="Grid number"
+        />
+        <button id="button">Submit</button>
+      </div>
+    </section>
+    <p id="result"></p>
+  </body>
 </html>
